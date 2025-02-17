@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_Dinamica", "GUI_Dinamica\GUI_Dinamica.csproj", "{EADE3CE8-F4C0-4917-A2B2-324FA6FBA9B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI_Dinamica", "GUI_Dinamica\GUI_Dinamica.csproj", "{EADE3CE8-F4C0-4917-A2B2-324FA6FBA9B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gestion", "Gestion", "{3E017AB5-456D-44E0-992F-A97A0B52EA6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion de Contactos", "..\Gestion de Contactos\Gestion de Contactos\Gestion de Contactos.csproj", "{6919B2B5-16D1-4CF7-8AC8-15A0702EA318}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{EADE3CE8-F4C0-4917-A2B2-324FA6FBA9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EADE3CE8-F4C0-4917-A2B2-324FA6FBA9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EADE3CE8-F4C0-4917-A2B2-324FA6FBA9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6919B2B5-16D1-4CF7-8AC8-15A0702EA318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6919B2B5-16D1-4CF7-8AC8-15A0702EA318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6919B2B5-16D1-4CF7-8AC8-15A0702EA318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6919B2B5-16D1-4CF7-8AC8-15A0702EA318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6919B2B5-16D1-4CF7-8AC8-15A0702EA318} = {3E017AB5-456D-44E0-992F-A97A0B52EA6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48B76414-44FB-44B6-B9CA-2EBECAA5AC86}
